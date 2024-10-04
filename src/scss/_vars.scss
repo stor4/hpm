@@ -2,11 +2,32 @@
 // colors
 :root {
   // base
-  --font-family: "Open Sans", sans-serif;
-  --content-width: 1170px;
+  --font-family: "Roobert PRO", sans-serif;
+  --second-family: "Stolzl Display", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "Roboto", sans-serif;
+  --font4: "Golos", sans-serif;
+  --content-width: 1472px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
-  --light-color: #fff;
+  --photo-shadow: rgba(0, 0, 0, 0.07);
+	--primary-hpm-red: #e60018;
+	--primary-hpm-red-shadow: #8c000f;
+	--secondary-text: #1a1a1a;
+	--secondary-light-background: #f1f3f5;
+	--secondary-yellow: #f1c75c;
+	--secondary-ok: #2d7d34;
+	--neutral-black: #000;
+	--neutral-white: #fff;
+	--neutral-gray-90: #333;
+	--neutral-gray-80: #454545;
+	--neutral-gray-50: #6d6d6d;
+	--neutral-gray-40: #888;
+	--neutral-gray-30: #b0b0b0;
+	--neutral-gray-20: #d1d1d1;
+	--neutral-gray-10: #e7e7e7;
+	--toolkit-toolkit-gray: #acb0b9;
+  --filter-hpm-red: brightness(0) saturate(100%) invert(11%) sepia(89%) saturate(7199%) hue-rotate(347deg) brightness(94%) contrast(122%);
 }
