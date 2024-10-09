@@ -135,6 +135,29 @@ li::marker {
   }
 }
 
+.d-btn-transparent {
+  border-radius: 32px;
+  padding: 16px 20px;
+  // width: 116px;
+  height: 48px;
+  background: transparent;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--primary-hpm-red);
+  text-align: center;
+  border: 1px solid var(--primary-hpm-red);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--neutral-white);
+    border-color: var(--neutral-white);
+  }
+}
+
 .d-link {
   display: flex;
   align-items: center;

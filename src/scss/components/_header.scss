@@ -143,9 +143,9 @@
       padding: 16px 16px 24px 16px;
       position: absolute;
       width: 100%;
-      height: 300px;
       top: 56px;
       display: none;
+      z-index: 5;
 
       a {
         font-weight: 400;
